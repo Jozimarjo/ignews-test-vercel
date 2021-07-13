@@ -10,6 +10,7 @@ import styles from './home.module.scss';
 // Server-side --> Dados dinamicos da sessão do usario por exemplo, onde as paginas se diferem para cada usuario
 // Static Site --> generation 1 html para todos usarios
 
+
 interface HomeProps {
   product: {
     priceId: string;
